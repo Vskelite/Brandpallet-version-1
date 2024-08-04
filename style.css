@@ -207,7 +207,17 @@ a{
     height: 100%;
     object-fit: cover;
 }
-
+@media and screen (max-width:540px){
+  #fleft{
+      width:50%;
+  }
+  #fright{
+      width:50%;
+  }
+    #fright .images{
+        width: 95%;
+    }
+}
 .fleftelm{
     display: flex;
     flex-direction: column;
